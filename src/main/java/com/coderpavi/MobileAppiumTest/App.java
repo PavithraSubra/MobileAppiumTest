@@ -47,18 +47,12 @@ public class App
 	        System.out.println("Web application started");
 	        // Perform actions on the web page
 	        // ...
-	        
-	        
+	            
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	        driver.findElement(new AppiumBy.ByAndroidUIAutomator("new UiSelector().text(\"We create digital solutions.\")")).isDisplayed();
-	      
-	        clear();
+	      //  driver.findElement(new AppiumBy.ByAndroidUIAutomator("new UiSelector().text(\"We create digital solutions.\")")).isDisplayed();
+	        System.out.println("Exit driver");
+	    	driver.close();
 
 		
-    }
-    public static void clear() {
-        System.out.println("Quitting driver");
-
-    	driver.quit();
     }
 }
