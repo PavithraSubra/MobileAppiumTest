@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 # Created at 2024-09-11T14:22:45.065
 Boot Manifest-JAR contains absolute paths in classpath 'D:\Pavi\Projects\MobileAppiumTest\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
 
+=======
+# Created at 2024-09-11T14:22:45.065
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Pavi\Projects\MobileAppiumTest\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
+>>>>>>> d30267333eb0cddad20b80de45f92e7d1d6a4fc8
